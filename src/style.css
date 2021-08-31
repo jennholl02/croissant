@@ -19,6 +19,16 @@ body {
   margin-top: 25px;
 }
 
+.navbar {
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: var(--secondary-color);
+  font-size: 24px;
+  border-radius: 8px;
+}
+
 h1 {
   color: var(--primary-color);
 }

@@ -5,6 +5,12 @@
   --centered: center;
 }
 
+@media (max-width: 768px) {
+  .small-photo {
+    display: none;
+  }
+}
+
 body {
   background-image: url("/images/Table.jpg");
   background-repeat: no-repeat;

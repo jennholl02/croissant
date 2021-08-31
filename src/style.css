@@ -67,3 +67,7 @@ p {
 .btn.success:hover {
   background-color: var(--secondary-color);
 }
+
+.pastry {
+  color: var(--primary-color);
+}

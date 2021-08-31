@@ -10,28 +10,75 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Croissant</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Croissant</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/photo.html">Photos</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <h1>The Delicious History of the Croissant</h1>
     <h2>A French Pastry with Austrian Roots</h2>
-    <p>
-      According to
-      <a
-        href="https://en.wikipedia.org/wiki/Croissant"
-        target="_blank"
-        alt="Wikipedia Link"
-        >Wikipedia</a
-      >, a croissant, or kipferl as it was originally known, is a "buttery,
-      flaky, viennoiserie pastry of Austrian origin, but is mostly associated
-      with France. It is named for its historical crescent shape and, like other
-      viennoiserie, is made of a layered yeast-leavened dough and can be made
-      plain, with nuts or other fillings."
-    </p>
-    <div>
-      <button><a href="/photo.html">MouthWatering Photo</a></button>
-      <button><a href="/contact.html">Contact Us</a></button>
+    <div class="container" id="description">
+      <p>
+        According to
+        <a
+          href="https://en.wikipedia.org/wiki/Croissant"
+          target="_blank"
+          alt="Wikipedia Link"
+          >Wikipedia</a
+        >, a croissant, or kipferl as it was originally known, is a
+        <em
+          >"buttery, flaky, viennoiserie pastry of Austrian origin, but is
+          mostly associated with France. It is named for its historical crescent
+          shape and, like other viennoiserie, is made of a layered
+          yeast-leavened dough and can be made plain, with nuts or other
+          fillings.</em
+        >"
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="text-center mt-3">
+          <a
+            href="/photo.html"
+            class="btn btn-primary pt-3 ps-4 pb-3 pe-4 m-3 d-inline-block w-20"
+            type="button"
+            >Photos</a
+          >
+          <a
+            href="/contact.html"
+            class="btn btn-success p-3 m-3 d-inline-block w-20"
+            type="button"
+            >Contact Us</a
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>
